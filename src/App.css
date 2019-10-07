@@ -5,7 +5,7 @@
 
 .scoreboard {
   width: 58%;
-  margin: 10rem auto;
+  margin: 10rem auto 3rem auto;
   background-color: #0b5402;
   color: white;
   border-radius: 0.5rem;
@@ -76,8 +76,9 @@
 .bottomRow {
   display: flex;
   justify-content: space-around;
-  place-items: center;
-  height: 20rem;
+  align-items: flex-start;
+  height: auto;
+  padding-top: 4rem;
 }
 
 .down,
@@ -119,4 +120,14 @@
 .awayButtons__fieldGoal {
   margin: 1rem;
   border-radius: 4px;
+}
+
+.rowofButtons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1rem;
+}
+.scoreButtons {
+  margin: 0px 10px 10px 0px;
 }
